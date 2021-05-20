@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 3345
 
-CMD npm run start:dev
+CMD npm run start
