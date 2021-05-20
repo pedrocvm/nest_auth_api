@@ -36,5 +36,26 @@ Os Usuários devem ser cadastrados com as seguintes propriedades:
 Apenas os Usuários com Perfil Admin são autorizados para Consultar os Usuários cadastrados e Adicionar um novo Usuário (fora da rota de Sign Up).
 Cada Usuário consegue alterar seus próprios dados ou excluir sua conta, porém só os Usuários com Perfil Admin podem acessar, editar e deletar dados de outros Usuários.
 
-Projeto iniciado em 19/05/2021.
+Projeto Iniciado em 19/05/2021
 ---
+
+### :dvd: **Executar o Projeto**
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/pedrocvm/nest_auth_api
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd nest_auth_api
+
+Utilizando Docker
+# Inicialize o Container
+$ docker-compose up -d
+
+Utilizando fora do Docker
+# Instale as Dependências
+$ yarn
+
+# Execute a Aplicação
+$ yarn start:dev
+```
