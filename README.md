@@ -59,7 +59,7 @@ $ yarn start:dev
 # Acessar API e cadastrar o primeiro Usuário
 http://localhost:3345/api/auth/signup
 ```
-<p>⚠️ O deploy foi feito no EC2 da AWS, através do Docker Machine, bastando utlizizar a seguinte <a href="http://3.238.37.126:3345/api/auth/signup">URL</a> para enviar as requisições</p>
+<p>⚠️ O deploy foi feito no EC2 da AWS, através do Docker Machine, bastando utlizizar a seguinte <a href="http://3.238.37.126:3345/api/auth/signup" target="_blank">URL</a> para enviar as requisições</p>
 
 
 <p>Projeto Iniciado em 19/05/2021</p>
