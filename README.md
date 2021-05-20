@@ -33,7 +33,7 @@ Os Usuários devem ser cadastrados com as seguintes propriedades:
 - Telefones
 - Perfil (Admin ou Comum)
 
-<p>Apenas os Usuários com Perfil Admin são autorizados para Consultar os Usuários cadastrados e Adicionar um novo Usuário (fora da rota de Sign Up).</p>
+<p>Apenas os Usuários com Perfil Admin são autorizados para consultar os Usuários cadastrados e Adicionar um novo Usuário (fora da rota de Sign Up).</p>
 <p>Cada Usuário consegue alterar seus próprios dados ou excluir sua conta, porém só os Usuários com Perfil Admin podem acessar, editar e deletar dados de outros Usuários.</p>
 ---
 
@@ -56,8 +56,14 @@ $ yarn
 
 # Execute a Aplicação
 $ yarn start:dev
+
+# Acessar API e cadastrar o primeiro Usuário
+http://localhost:3345/api/auth/signup
 ```
-Projeto Iniciado em 19/05/2021
+<p>⚠️ O deploy foi feito no EC2 da AWS, através do Docker Machine, bastando utlizizar a seguinte <p><a href="http://3.238.37.126:3345/api/auth/signup">URL</a></p> para enviar as requisições</p>
+
+
+<p>Projeto Iniciado em 19/05/2021</p>
 
 ### :boy: **Autor**
 
@@ -67,7 +73,6 @@ Projeto Iniciado em 19/05/2021
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/60618486?s=460&u=661e1932902d4a8d7bf9c9f28038a68a4d5d0984&v=4" width="100px;" alt="Foto de Perfil Pedro Matos"/>
  <br />
  <sub><b>Pedro Matos</b></sub></a>
-
 
 Feito com ❤️ por Pedro Matos 👋🏽 Entre em contato!
 
