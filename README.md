@@ -33,8 +33,8 @@ Os Usuários devem ser cadastrados com as seguintes propriedades:
 - Telefones
 - Perfil (Admin ou Comum)
 
-Apenas os Usuários com Perfil Admin são autorizados para Consultar os Usuários cadastrados e Adicionar um novo Usuário (fora da rota de Sign Up).
-Cada Usuário consegue alterar seus próprios dados ou excluir sua conta, porém só os Usuários com Perfil Admin podem acessar, editar e deletar dados de outros Usuários.
+<p>Apenas os Usuários com Perfil Admin são autorizados para Consultar os Usuários cadastrados e Adicionar um novo Usuário (fora da rota de Sign Up).</p>
+<p>Cada Usuário consegue alterar seus próprios dados ou excluir sua conta, porém só os Usuários com Perfil Admin podem acessar, editar e deletar dados de outros Usuários.</p>
 ---
 
 ### :dvd: **Executar o Projeto**
