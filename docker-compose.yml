@@ -7,8 +7,6 @@ services:
     restart: unless-stopped
     ports:
       - ${MONGO_PORT}:27017
-    # volumes:
-    #   - ./data:/var/lib/mongodb/data
 
   api:
     build: .
@@ -19,5 +17,3 @@ services:
       - mongodb
     environment:
       - MONGO_URI=mongodb://mongodb/challenge_sky
-    # volumes:
-    #   - ./app:/srv/app

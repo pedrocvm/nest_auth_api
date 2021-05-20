@@ -14,7 +14,7 @@ import { User } from './user.decorator';
 import { UserService } from './user.service';
 
 @Controller('user')
-// @UseGuards(AuthGuard('jwt'))
+@UseGuards(AuthGuard('jwt'))
 export class UserController {
   constructor(private readonly userService: UserService) {}
 
